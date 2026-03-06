@@ -17,7 +17,7 @@ import social8 from '../assets/social8.JPG';
 
 
 import criativa from '../assets/criativa.JPG';
-import criativa2 from '../assets/criativa2.JPG';
+import criativa2 from '../assets/criativa2.jpg';
 import criativa3 from '../assets/criativa3.JPG';
 import criativa4 from '../assets/criativa4.JPG';
 import criativa5 from '../assets/criativa5.JPG';
