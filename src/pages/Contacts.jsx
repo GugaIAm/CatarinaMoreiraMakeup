@@ -115,7 +115,7 @@ export default function Contacts() {
         </div>
         <div className='input-group'>
         <label>Serviço</label>
-          <div class="select-wrapper">
+          <div className="select-wrapper">
             <select name="evento" id="event_type">
               <option value="noiva">Maquilhagem de Noiva</option>
               <option value="social">Maquilhagem Social</option>
