@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import './Layout.css'
 import BackToTop from './BackToTop'
+import icon from '../assets/icon.PNG'
 import Home from '../pages/Home'
 import About from '../pages/About'
 import MissionValues from '../pages/MissionValues'
@@ -40,7 +41,23 @@ export default function Layout() {
         />
       )}
       <header className="header">
+        <button
+          type="button"
+          className="nav-icon nav-icon-desktop"
+          onClick={() => handleNavClick('home')}
+          aria-label="Ir para início"
+        >
+          <img src={icon} alt="" className="nav-icon-img" />
+        </button>
         <nav className={`nav ${navOpen ? 'nav-open' : ''}`}>
+          <button
+            type="button"
+            className="nav-icon nav-icon-mobile"
+            onClick={() => handleNavClick('home')}
+            aria-label="Ir para início"
+          >
+            <img src={icon} alt="" className="nav-icon-img" />
+          </button>
           <button
             type="button"
             className="nav-toggle"
@@ -95,6 +112,13 @@ export default function Layout() {
               Contactos
             </button>
           </div>
+          <button
+            type="button"
+            className="nav-cta"
+            onClick={() => handleNavClick('contacts')}
+          >
+            Pedir Orçamento
+          </button>
         </nav>
       </header>
       <main className="main">
