@@ -11,6 +11,18 @@
   background: var(--bg-header);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--border);
+  transition: background 0.25s ease, backdrop-filter 0.25s ease;
+}
+
+.header--over-home {
+  background: rgba(250, 248, 246, 0.55);
+  border-bottom-color: rgba(160, 140, 130, 0.2);
+}
+
+@media (max-width: 768px) {
+  .header--over-home {
+    background: rgba(250, 248, 246, 0.7);
+  }
 }
 
 .nav {
@@ -208,6 +220,10 @@
   .section {
     padding: 2rem 0;
     scroll-margin-top: 60px;
+  }
+
+  #home.section {
+    padding-top: 0;
   }
 
   .footer {
