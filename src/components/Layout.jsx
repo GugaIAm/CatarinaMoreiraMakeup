@@ -86,13 +86,6 @@ export default function Layout() {
             <button
               type="button"
               className="nav-link"
-              onClick={() => handleNavClick('mission-values')}
-            >
-              Missão &amp; Valores
-            </button>
-            <button
-              type="button"
-              className="nav-link"
               onClick={() => handleNavClick('services')}
             >
               Serviços
@@ -103,6 +96,13 @@ export default function Layout() {
               onClick={() => handleNavClick('testemunhos')}
             >
               Testemunhos
+            </button>
+            <button
+              type="button"
+              className="nav-link"
+              onClick={() => handleNavClick('mission-values')}
+            >
+              Missão &amp; Valores
             </button>
             <button
               type="button"

@@ -69,8 +69,8 @@ export default function Contacts() {
   return (
     <section className="page contacts">
       <h1 className="page-title">Contactos</h1>
-      <p className="page-lead">
-        Entre em contacto para agendar uma sessão ou fazer qualquer pergunta.
+      <p className="page-text">
+        Entra em contacto comigo para fazermos magia junta(o)s  💫🖤
       </p>
       <div className="contact-block">
         <p className="contact-item">
